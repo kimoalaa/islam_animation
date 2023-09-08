@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Reem+Kufi&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("m.jpg") no-repeat center ;
+    color: #222;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    background-image: linear-gradient( 180deg , rgb(231, 229, 229) , wheat);
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 25px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #222;
+    padding: 20px;
+    font-family: 'Lemonada', cursive;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: chocolate;
+}
+h1 {
+    font-family: 'Lemonada', cursive;
+    margin-left: 50px;
+    font-size: 25px;
+    color:rgb(46, 45, 45);
+}
+i{
+    position: absolute;
+    right: 83%;
+    font-size: 40px;
+}
